@@ -1,3 +1,5 @@
 streamlit
 cohere
 python-dotenv
+cohere==4.1.2
+python-dotenv==1.0.0
