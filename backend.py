@@ -8,6 +8,6 @@ co = cohere.Client(os.getenv("COHERE_API_KEY"))
 def get_text_output(input_text):
     response = co.chat(
         model="command-r7b-12-2024",
-         query=input_text
+        message=input_text
     )
     return response.text
