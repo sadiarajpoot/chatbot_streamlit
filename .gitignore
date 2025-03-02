@@ -1,5 +1,6 @@
 # Ignore environment files
 .env
 
-# Ignore the virtual environment folder
+# Ignore virtual environment folder
 chatbot_env/
+venv/
